@@ -1,7 +1,7 @@
 Sustaination
 ============
 
-Wrapper for the [Sustaination](http://sustaination.co) API so you help the food
+Wrapper for the [Sustaination](http://sustaination.co) API so you can help the food
 movement grow
 
 Usage
