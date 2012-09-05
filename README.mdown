@@ -9,20 +9,20 @@ Usage
 
 Just add the gem to your project:
 
-  require 'sustaination'
+    require 'sustaination'
 
 Find businesses by query
 
-  businesses = Sustaination::Business.find :query => "Better food"
+    businesses = Sustaination::Business.find :query => "Better food"
 
 Or location
 
-  businesses = Sustaination::Business.find :lat => 51.4657808, :lon => -2.5872246, :
+    businesses = Sustaination::Business.find :lat => 51.4657808, :lon => -2.5872246, :
 
 And finding connections on a business
 
-  business = businesses[0]
-  connections = business.connections
+    business = businesses[0]
+    connections = business.connections
 
 TODO
 ====
