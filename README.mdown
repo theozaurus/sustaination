@@ -1,0 +1,31 @@
+Sustaination
+============
+
+Wrapper for the [Sustaination](http://sustaination.co) API so you help the food
+movement grow
+
+Usage
+=====
+
+Just add the gem to your project:
+
+  require 'sustaination'
+
+Find businesses by query
+
+  businesses = Sustaination::Business.find :query => "Better food"
+
+Or location
+
+  businesses = Sustaination::Business.find :lat => 51.4657808, :lon => -2.5872246, :
+
+And finding connections on a business
+
+  business = businesses[0]
+  connections = business.connections
+
+TODO
+====
+
+- TESTS!
+- Gobble up more API
